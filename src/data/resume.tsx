@@ -16,12 +16,10 @@ export const DATA = {
     "Next.js",
     "Typescript",
     "Node.js",
-    "Go",
     "Postgres",
     "Docker",
     "Kubernetes",
     "Java",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -101,14 +99,38 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-
       image: "/http-ts.jpeg",
-      video: "",
+    },
+    {
+      title:
+        "Serverless AI Video Transcription Pipeline with Cloudflare Workers",
+      href: "https://github.com/TheRohit/cf-hono-app",
+      dates: "July 2024",
+      active: true,
+      description:
+        "A serverless pipeline that automatically transcribes videos using AI and enables semantic search across transcriptions. Built on Cloudflare Workers with workflow orchestration for handling video processing pipelines.",
+      technologies: [
+        "Cloudflare Workers",
+        "Hono",
+        "Vectorize",
+        "Deepgram",
+        "Clerk Auth",
+        "Drizzle ORM",
+        "Vercel AI SDK",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/TheRohit/cf-hono-app",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/cfw.png",
     },
 
     {
-      title: "Mind Cache",
-      href: "https://mindcache.rohitm.dev",
+      title: "Mind Cache - AI Powered Second Brain",
+      href: "https://mind-cache.rohitm.dev/dashboard",
       dates: "Jan 2025 – Mar 2025",
       active: true,
       description:
@@ -125,7 +147,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://mindcache.rohitm.dev",
+          href: "https://mind-cache.rohitm.dev/dashboard",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -134,12 +156,10 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/mind-cache.png",
     },
     {
-      title: "Summarise",
+      title: "Summarise - Instant AI Video Chapters & Transcripts",
       href: "https://summarise.rohitm.dev",
       dates: "Aug 2024 - Jan 2025",
       active: true,
@@ -168,7 +188,33 @@ export const DATA = {
         },
       ],
       image: "/summarise.jpeg",
-      video: "",
+    },
+
+    {
+      title: "Eulerian Video Magnification Heart Rate Detection API",
+      href: "https://github.com/TheRohit/evm-flask",
+      dates: "May 2025",
+      active: true,
+      description:
+        "A Flask-based web application that uses computer vision and signal processing to detect heart rate from a video.",
+      technologies: [
+        "Python",
+        "OpenCV",
+        "FFmpeg",
+        "SciPy",
+        "Flask",
+        "Docker",
+        "Laplacian pyramid",
+      ],
+
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/TheRohit/evm-flask",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/evm.png",
     },
   ],
 } as const;
