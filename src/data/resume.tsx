@@ -87,6 +87,26 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "HTTP/1.1 Server Implementation in TypeScript",
+      href: "https://github.com/TheRohit/http-server-ts",
+      dates: "May 2025",
+      active: true,
+      description:
+        "A low-level HTTP/1.1 server implementation built entirely from scratch in TypeScript using Node.js native TCP sockets. Features custom HTTP request parsing from raw buffer data, modular routing system with type-safe handlers, and static file serving capabilities.",
+      technologies: ["TypeScript", "Node.js"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/TheRohit/http-server-ts",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+
+      image: "/http-ts.jpeg",
+      video: "",
+    },
+
+    {
       title: "Mind Cache",
       href: "https://mindcache.rohitm.dev",
       dates: "Jan 2025 – Mar 2025",
@@ -147,8 +167,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/summarise.jpeg",
+      video: "",
     },
   ],
 } as const;
