@@ -9,7 +9,8 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/gurgaon",
   description: "Software Engineer",
   summary:
-    "I am a software engineer specializing in frontend development, with a passion for building scalable and efficient systems. I am currently working as a software engineer at [Radiansys](https://radiansys.com).",
+    "software engineer | building stuff | hacking with llms | everything frontend",
+
   avatarUrl: "/me.png",
   skills: [
     "React",
